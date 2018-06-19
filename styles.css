@@ -7,12 +7,12 @@
     text-align: center;
     position: relative;
     width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: auto;  
-   margin-bottom: auto;
-   display: inline-block;
-   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;  
+    margin-bottom: auto;
+    display: inline-block;
+    text-align: center;
     max-width: 100%;}
 .top-box {
    background-color: black;
