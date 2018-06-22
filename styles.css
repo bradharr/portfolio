@@ -1,21 +1,19 @@
 #header {
     display: inline-block;
-    padding: 40px;
+    padding: 10px;
     background-color: black;
     overflow: hidden;
     color: white;
     text-align: center;
     position: relative;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;  
-    margin-bottom: auto;
-    text-align: center;
-    max-width: 100%;}
+    margin: auto;
+    max-width: 100%;
+    vertical-align: middle;
+ }
 #nav-bar {
-	   background-color: #f2f2f2;
-    padding: 20px;
+	background-color: #b3b3b3;
+    padding: 10px;
     width: 100%;
     max-width: 100%;
     position: relative;
@@ -28,16 +26,31 @@
     color: #000000;
 }
 .top-box {
-   background-color: black;
-   padding: 5px;
+   background-color: transparent;
+   padding: 25px 75px 25px 75px;
    border-width: 5px;
    border-color: white;
    border-style: solid;
-   position: absolute;
+   position: relative;
    text-align: center;
-   width: 40%;
+   vertical-align: middle;
+   width: 100%;
    max-width: 100%;
    color: white;
-   valign: center;
+   box-align: center;
+   display: inline-block;
+   margin-left: auto;
    }
 .table-responsive { margin-left: 0; max-width: 100%;}
+table {
+    display: inline-table;
+}
+td:nth-of-type(1) {
+    padding-right: 60px;
+ }
+ td:nth-of-type(3) {
+    padding-left: 60px;
+ }
+ td:nth-of-type(4) {
+    padding-right: 30px;
+ }
