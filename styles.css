@@ -1,56 +1,53 @@
-#header {
-    display: inline-block;
-    padding: 10px;
-    background-color: black;
-    overflow: hidden;
-    color: white;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    margin: auto;
-    max-width: 100%;
-    vertical-align: middle;
- }
-#nav-bar {
-	background-color: #b3b3b3;
-    padding: 10px;
-    width: 100%;
-    max-width: 100%;
-    position: relative;
-    display: block;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    text-align: center;
-    color: #000000;
+@media screen and (max-width: 768px) {
+    #welcome-section {
+        flex: 1;
+        height: 100vh;
+        background-color: teal;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
 }
-.top-box {
-   background-color: transparent;
-   padding: 25px 75px 25px 75px;
-   border-width: 5px;
-   border-color: white;
-   border-style: solid;
-   position: relative;
-   text-align: center;
-   vertical-align: middle;
-   width: 100%;
-   max-width: 100%;
-   color: white;
-   box-align: center;
-   display: inline-block;
-   margin-left: auto;
-   }
-.table-responsive { margin-left: 0; max-width: 100%;}
-table {
-    display: inline-table;
+@media screen and (min-width: 767px) {
+   #welcome-section { 
+    flex: 1;
+    height: 100vh;
+    background-color: teal;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
-td:nth-of-type(1) {
-    padding-right: 60px;
- }
- td:nth-of-type(3) {
-    padding-left: 60px;
- }
- td:nth-of-type(4) {
-    padding-right: 30px;
- }
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+#navbar {
+    background-color: blue;
+}
+#projects {
+
+}
+#project-tile {
+
+}
+#flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+footer {
+    flex: 1;
+    overflow: auto;
+    background-color: yellow;
+}
+main {
+    flex: 1;
+    overflow: auto;
+}
+section {
+    height: 100%;
+    overflow: auto;
+    background-color: limegreen;
+}
+#profile-link {
+    
+}
