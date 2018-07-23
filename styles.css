@@ -2,7 +2,7 @@
     #welcome-section {
         flex: 1;
         height: 100vh;
-        background-color: teal;
+        background-color: white;
         flex-wrap: wrap;
         overflow: hidden;
     }
@@ -11,7 +11,7 @@
    #welcome-section { 
     flex: 1;
     height: 100vh;
-    background-color: teal;
+    background-color: white;
     flex-wrap: wrap;
     max-width: 100%;
 }
@@ -21,11 +21,14 @@ html, body {
     height: 100%;
 }
 #navbar {
-    background-color: blue;
+    list-style-type: none;
+    background-color: #8c43ff;
     position: fixed;
     top: 0px;
     padding: 20px;
     width: 100%;
+    text-align: center;
+    color: white;
     
 }
 #projects {
@@ -42,7 +45,7 @@ html, body {
 footer {
     flex: 1;
     overflow: auto;
-    background-color: yellow;
+    background-color: #8c43ff;
 }
 main {
     flex: 1;
@@ -52,8 +55,15 @@ main {
 section {
     height: 100%;
     overflow: auto;
-    background-color: limegreen;
+    background-color: #939598;
 }
 #profile-link {
     
+}
+#navbar li {
+				display: inline-block;
+}
+#testamonials {
+				background-color: white;
+				padding: 50px;
 }
