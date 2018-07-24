@@ -1,17 +1,12 @@
-@media screen and (max-width: 768px) {
-    #welcome-section {
-        flex: 1;
-        height: 35%;
-        background-color: #939598;;
+@media screen and (min-width: 768px) {
+    #nav-wrapper {
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        overflow: hidden;
-        text-align: center;
-        color: white;
     }
 }
-@media screen and (min-width: 767px) {
-   #welcome-section { 
-    flex: 1;
+
+#about-me { 
     height: 35%;
     background-color: #939598;
     flex-wrap: wrap;
@@ -19,7 +14,7 @@
     text-align: center;
     color: white;
     }
-}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -31,12 +26,6 @@ html, body {
     padding: 10px;
     text-align: left;
     color: white;
-}
-#projects {
-
-}
-.project-tile {
-
 }
 #flex-wrapper {
     display: flex;
@@ -53,9 +42,9 @@ main {
     overflow: auto;
 }
 section {
-    height: 100%;
+    height: 75%;
     overflow: auto;
-    background-color: White
+    background-color: black;
 }
 #profile-link {
     
@@ -67,10 +56,41 @@ section {
     background-color: white;
     padding: 50px;
 }
-#nav-links {
-    margin-right: 5%;
+#skills {
+    background-color: white;
+    padding: 50px;
+}
+#projects {
+    background-color: #939598;
+    padding: 50px;
+}
+#etsu {
+    display: block;
+    background-image: url(ETSU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px;
     margin-left: auto;
-    margin-bottom: 1%;
+    margin-right: auto;
+}
+#wgu {
+    display: block;
+    background-image: url(wgu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sprint {
+    background-image: url(Sprint.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:20px;
+}
+#certs {
+    background-color: #8c43ff;
+    padding: 50px;
 }
 #profile-pic {
     border-radius: 50%;
@@ -78,14 +98,34 @@ section {
     border-width: 5px;
     border-color: white;
 }
-#nav-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 #nav-box1 {
-    flex: .1;
+    flex: 1;
+    text-align: center;
 }
 #nav-box2 {
     flex: 2;
+    text-align: center;
+    font-family: open-sans;
+}
+#nav-box3 {
+    flex: 1;
+    text-align: center;
+    font-family: open-sans;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 25%;
+}
+.edu-box {
+    display: block;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: black;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
