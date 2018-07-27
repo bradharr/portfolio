@@ -180,4 +180,9 @@ h1 {
     border-color: white;
     border-radius: 25%;
 }
-
+.purple-font {
+    color: #8c43ff;
+}
+.skills-box li {
+    list-style-type: none;
+}
