@@ -35,19 +35,6 @@
         margin-right: auto;
         justify-content: space-between;
     }
-#foot-flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 60%;
-        max-width: 60%;
-        height: auto;
-        text-align: center;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
     #projects-flex {
         display: flex;
         flex-direction: row;
@@ -59,6 +46,19 @@
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
+    }
+    #foot-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 90%;
+        max-width: 50%;
+        height: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
     #bottom-banner-flex {
         display: flex;
@@ -142,13 +142,13 @@
         margin-right: auto;
         font-family: open-sans;
     }
-            .foot-box {
+    .foot-box {
         flex: 1;
         color: white;
         text-align: center;
         height: auto;
         width: 10%;
-        max-width: 10%;
+        max-width: 80%;
         font-family: open-sans;
     }
     .bottom-banner-flex-box {
@@ -179,7 +179,7 @@
         margin-right: auto;
         font-family: open-sans;
     }
-        .foot-box {
+    .foot-box {
         flex: 1;
         color: white;
         text-align: center;
@@ -233,8 +233,20 @@
         margin-right: auto;
         font-family: open-sans;
     }
+    #foot-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
 }
-
 #photo-banner { 
     background-color: #939598;
     flex-wrap: wrap;
@@ -264,7 +276,7 @@ footer {
     flex: 1;
     width:100%;
     max-width: 100%;
-    height: auto;
+    height: 375px;
     background-color: #8c43ff;
     text-align: center;
     color: white;
