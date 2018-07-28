@@ -18,9 +18,10 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2%;
+        margin-top: 60px;
         margin-bottom: 5%;
         justify-content: space-between;
+        height: auto;
     }
     #cert-flex {
         display: flex;
@@ -29,9 +30,22 @@
         width: 80%;
         max-width: 100%;
         text-align: center;
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
+    }
+#foot-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        max-width: 60%;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
     #projects-flex {
         display: flex;
@@ -40,17 +54,7 @@
         width: 100%;
         max-width: 100%;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: space-between;
-    }
-    #foot-flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        max-width: 100%;
-        text-align: center;
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
@@ -103,8 +107,10 @@
         width: 90%;
         max-width: 100%;
         text-align: center;
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
+        height: auto;
         justify-content: space-between;
         font-family: open-sans;
     }
@@ -125,21 +131,14 @@
         margin-right: auto;
         font-family: open-sans;
     }
-    .foot-box {
+            .foot-box {
         flex: 1;
-        background-color: darkblue;
         color: white;
         text-align: center;
-        border-radius: 5%;
         height: auto;
-        width: 40%;
-        max-width: 40%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 10%;
+        max-width: 10%;
         font-family: open-sans;
-        box-shadow: 0 4px 10px 2px black;
     }
 }
 @media screen and (max-width: 768px) {
@@ -158,6 +157,15 @@
         box-shadow: 0 4px 10px 2px #939598;
         margin-left: auto;
         margin-right: auto;
+        font-family: open-sans;
+    }
+        .foot-box {
+        flex: 1;
+        color: white;
+        text-align: center;
+        height: auto;
+        width: 10%;
+        max-width: 80%;
         font-family: open-sans;
     }
     .cert-box {
@@ -212,7 +220,7 @@
     flex-wrap: wrap;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 20px;
     }
 
 html, body {
@@ -234,8 +242,13 @@ html, body {
 }
 footer {
     flex: 1;
+    width:100%;
+    max-width: 100%;
     height: auto;
     background-color: #8c43ff;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
 }
 main {
     flex: 1;
@@ -324,7 +337,7 @@ main {
     text-align: center;
 }
 h1 {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 #hello {
     border-style: solid;
