@@ -41,6 +41,7 @@
         flex-wrap: wrap;
         width: 60%;
         max-width: 60%;
+        height: auto;
         text-align: center;
         margin-top: 40px;
         margin-left: auto;
@@ -58,6 +59,16 @@
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
+    }
+    #bottom-banner-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
     .skills-box {
         flex: 1;
@@ -138,6 +149,15 @@
         height: auto;
         width: 10%;
         max-width: 10%;
+        font-family: open-sans;
+    }
+    .bottom-banner-flex-box {
+        flex: 1;
+        color: white;
+        text-align: center;
+        height: auto;
+        width: 60%;
+        max-width: 60%;
         font-family: open-sans;
     }
 }
@@ -223,10 +243,10 @@
     padding: 20px;
     }
 
-html, body {
+body {
     margin: 0;
-    height: 100%;
     font-family: open-sans;
+    background-color: #8c43ff;
 }
 #navbar {
     flex: 0 0 auto;
@@ -337,7 +357,7 @@ main {
     text-align: center;
 }
 h1 {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 #hello {
     border-style: solid;
