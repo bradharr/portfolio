@@ -45,7 +45,7 @@
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
-        justify-content: space-between;
+        justify-content: center;
     }
     #foot-flex {
         display: flex;
